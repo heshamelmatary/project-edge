@@ -1,7 +1,5 @@
 /* MIPS1 Instruction formats and related functions */
 
-package MIPS1_Instruction32;
-
 /*****************************************************************
 * MIPS1 instructions have three categories:
 *
@@ -84,6 +82,3 @@ typedef enum {
   SLTU    = 43
 } MIPS1_Instruction_Funct deriving(Bits, Eq);
 
-`define Instruction_OpCode MIPS1_Instruction_Opcode;
-
-endpackage

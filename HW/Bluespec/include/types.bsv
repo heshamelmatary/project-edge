@@ -1,9 +1,10 @@
 /* Types are defined here for all other Bluespec files to include */
 
-package types;
+`include "configure.bsv"
 
-import MIPS1_Instruction32::*;
+`ifdef (`ISA_FORMAT == `__ISA_MIPS1_32__)
 
-`define Instruction_OpCode MIPS1_Instruction_Opcode;
+  `include "MIPS1_Instruction32.bsv"
+  `define Instruction_OpCode MIPS1_Instruction_Opcode;
 
-endpackage
+`endif
