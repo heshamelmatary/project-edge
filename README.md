@@ -7,13 +7,8 @@ co-processor0. Edge has been tested and verified on Atlys that has a Spartan-6 X
 For the Atlys board, UART driver is provided to communicate with PC at 115200
 baud rate. 
 
-The project has started back it 2013.
+The project has started back in 2013.
 
-The opencores page for this project is here [1]
-
-TODO:
-
-1- Re-write Edge in Bluespec.
-2- Fix bug: Fix bug: subsequent store instructions.
+The opencores page for this project is here [1].
 
 [1] http://opencores.com/project,edge
