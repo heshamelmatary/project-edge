@@ -11,4 +11,4 @@ The project has started back in 2013.
 
 The opencores page for this project is here [1].
 
-[1] http://opencores.com/project,edge
+[1] https://opencores.org//project,edge
